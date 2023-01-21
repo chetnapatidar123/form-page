@@ -171,6 +171,7 @@ html,body{
 }
 .nav-right h5{
     width: 30vw;
+     font-size: 1.4vmax;     
     /* background-color: palevioletred; */
 }
 .matter{
