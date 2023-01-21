@@ -1,0 +1,307 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+html,body{
+          width: 100%;
+          height: 100%;
+}
+.main{
+          width: 100%;
+          height: 100%;
+          /* background-color: red; */
+}
+.nav{
+          width: 100%;
+          height: 8%;
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 2vmax;
+          cursor: pointer;
+}
+.nav-left{
+          display: flex;
+          margin-left: 5vmax;
+          font-size: 3vmax;
+}
+.nav-right{
+          display: flex;
+          margin-right: 6vmax;
+}
+.nav-right i{
+          color: red;
+}
+.matter{
+          width: 100%;
+          height: 60%;
+          background-color: rgb(3, 95, 131);
+          display: flex;
+}
+.matter .matter1{
+          width: 40%;
+          height: 90%;
+          /* background-color: red; */
+          margin-top: 2vmax;
+          margin-left: 5vmax;
+          color: white;
+}
+.matter1 h1{
+          font-size: 3vmax;
+}
+.matter h4{
+          font-size: 1.5vmax;
+}
+.matter1 h3 li{
+          font-size: 1.6vmax;
+          margin-left: 1.5vmax;
+          line-height: 3.5vmax;
+}
+.form{
+          width: 20%;
+          height: 92%;
+          background-color: white;
+          border: 1px solid black;
+          margin-left: 30vmax;
+          margin-top: 15vmax;
+          z-index: 1;
+
+}
+.form h2{
+          font-size: 1.5vmax;
+          margin-left: 6vmax;
+}
+.form h3{
+          margin-left: 2.5vmax;
+}
+.form input{
+          width: 18vmax;
+          /* margin-left: 1vmax; */
+          /* line-height: 2vmax; */
+          margin: 0.6vmax 1vmax;
+          font-size: 1.2vmax;
+}
+.form pre{
+          font-size: 1.6vmax;
+          margin-left: 0.7vmax;
+}
+.form pre input{
+          width: 13vmax;
+          margin-right: 1vmax;
+}
+.form button{
+          width: 18.4vmax;
+          font-size: 1.5vmax;
+          margin-left: 0.8vmax;
+          margin-top: 1vmax;
+          padding: 0.4vmax;
+          background-color: red;
+          color: white;
+          border: 1px solid black;
+           border: none;
+           cursor: pointer;
+}
+.form h5{
+          font-size: 1.5vmax;
+          margin-left: 0.5vmax;
+          margin-top: 1vmax;
+}
+.image{
+          width: 14vmax;
+          height: 16vmax;
+          /* background-color: black; */
+          background-image: url(form_image-removebg-preview.png);
+          background-position: center;
+          background-size: cover;
+          margin-left: -16vmax;
+          margin-top: 1.9vmax;
+
+}
+.bottom{
+          width: 100%;
+          height: 32%;
+          background-color: white;
+          display: flex;
+}
+.bottom h3{
+          font-size: 2vmax;
+          margin-top: 1.5vmax;
+          margin-left: 5vmax;
+}
+.bottom .box1{
+          width: 35vmax;
+          height: 10vmax;
+          /* background-color: red; */
+          margin-top: 3vmax;
+          margin-left: -3vmax;
+}
+.box1 img{
+          width: 15vmax;
+          height: 4vmax;
+          margin: 0.7vmax;
+          cursor: pointer;
+           
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .nav-left{
+    margin-left: 1vmax;
+    font-size: 2.5vmax;
+    /* background-color: red; */
+        
+}
+.nav-right{
+    width: 65vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2vmax;
+    /* background-color: yellow; */
+}
+.nav-right i{
+    font-size: 2vmax;
+    color: red;
+    
+}
+.nav-right h5{
+    width: 30vw;
+    /* background-color: palevioletred; */
+}
+.matter{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(3, 95, 131);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.matter .matter1{
+    width: 80%;
+    height: 31%;
+    /* background-color: red; */
+    margin-top: 2vmax;
+    margin-left: 5vmax;
+    color: white;
+    z-index: 1;
+
+}
+.matter1 h1{
+    font-size: 3vmax;
+}
+.matter h4{
+    font-size: 1.5vmax;
+}
+.matter1 h3 li{
+    font-size: 1.6vmax;
+    margin-left: 1.5vmax;
+    line-height: 2vmax;
+}
+.form{
+    width: 80%;
+    height: 41%;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 5vmax;
+    transform: translateY(0vh);
+    /* z-index: 9999; */
+
+}
+.form h2{
+    font-size: 1.5vmax;
+    margin-left: -1vmax;
+    text-align: center;
+    margin-top: 0.5vmax;
+}
+.form h3{
+    margin-left: 1.5vmax;
+    text-align: center;
+}
+.form input{
+    width: 28vmax;
+    line-height: 1vmax;
+    margin: 0.5vmax 3vmax;
+    font-size: 1.2vmax;
+    
+}
+.form pre{
+    width: 28vmax;
+    font-size: 1.6vmax;
+    margin-left: 2.5vmax;
+}
+.form pre input{
+    margin-left: 1.5vmax;
+    margin-top: 0.6vmax;
+}
+.form button{
+    width: 18.4vmax;
+    font-size: 1.5vmax;
+    margin-left: 11vmax;
+    margin-top: 0.6vmax;
+    padding: 0.4vmax;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+     border: none;
+    
+}
+.form h5{
+    font-size: 1.5vmax;
+    margin-left: 0.5vmax;
+    margin-top: 0.5vmax;
+    text-align: center;
+}
+.image{
+    width: 28%;
+    height: 28%;
+    /* background-color: black; */
+    background-image: url(form_image-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 18vmax;
+    margin-top: 0vmax;
+    transform: translateY(-42vmax);
+    /* z-index: 999; */
+    
+
+}
+.bottom{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom h3{
+    font-size: 3vmax;
+    margin-top: 1vmax;
+    margin-left: 0vmax;
+    text-align: center;
+}
+.bottom .box1{
+    width: 80vw;
+    height: 40vh;
+    /* background-color: yellow; */
+    margin-top: 0vmax;
+    margin-left: 0vmax;
+}
+.box1 img{
+    width: 35vw;
+    height: 15vh;
+    margin: 0  vmax;
+    
+     
+}
+
+}
+
